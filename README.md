@@ -2,7 +2,7 @@
 
 Pulse is a modern real-time chat application built with **React**, **TypeScript**, **Firebase**, and **Framer Motion**. It features online status indicators, typing notifications, smooth UI animations, and a responsive, dark-themed interface styled with **Tailwind CSS**.
 
-### [✨ Live Demo](https://pulse-chat-ruby.vercel.app/) | [Source Code](https://github.com/aashusoni22/Pulse-real-time-chat)
+### [✨ Live Demo](https://pulse-chat-six.vercel.app/) | [Source Code](https://github.com/aashusoni22/Pulse-real-time-chat)
 
 <img src="https://github.com/user-attachments/assets/789fcf0d-e33c-4f0b-b41c-eb1002bfa487" alt="Pulse Chat App" width="600" />
 
