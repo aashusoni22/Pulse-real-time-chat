@@ -6,8 +6,6 @@ Pulse is a modern real-time chat application built with **React**, **TypeScript*
 
 <img src="https://github.com/user-attachments/assets/789fcf0d-e33c-4f0b-b41c-eb1002bfa487" alt="Mountain landscape with snow-capped peaks at sunset" width="600" />
 
----
-
 ## ✨ Features
 
 - 🚀 Real-time messaging via Firebase Firestore
@@ -19,8 +17,6 @@ Pulse is a modern real-time chat application built with **React**, **TypeScript*
 - 📱 Fully responsive and mobile-friendly layout
 - 📦 Built with Vite for lightning-fast development
 
----
-
 ## 🔧 Tech Stack
 
 - **React + TypeScript**
@@ -31,8 +27,6 @@ Pulse is a modern real-time chat application built with **React**, **TypeScript*
 - **React Icons**
 - **Custom Scrollbars**
 - **PWA-ready setup (optional)**
-
----
 
 ## 📦 Installation
 
