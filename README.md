@@ -1,8 +1,10 @@
-# 🩶 Pulse — Real-time Chat App
+# 💬 Pulse — Real-time Chat App
 
 Pulse is a modern real-time chat application built with **React**, **TypeScript**, **Firebase**, and **Framer Motion**. It features online status indicators, typing notifications, smooth UI animations, and a responsive, dark-themed interface styled with **Tailwind CSS**.
 
-![Pulse Chat Preview](./public/preview.png)
+### [✨ Live Demo](https://pulse-chat-ruby.vercel.app/) | [Source Code](https://github.com/aashusoni22/Pulse-real-time-chat)
+
+<img src="https://github.com/user-attachments/assets/789fcf0d-e33c-4f0b-b41c-eb1002bfa487" alt="Mountain landscape with snow-capped peaks at sunset" width="600" />
 
 ---
 
@@ -16,14 +18,6 @@ Pulse is a modern real-time chat application built with **React**, **TypeScript*
 - 🎛️ Smooth animations powered by Framer Motion
 - 📱 Fully responsive and mobile-friendly layout
 - 📦 Built with Vite for lightning-fast development
-
----
-
-## 📸 Screenshots
-
-| Chat Window                           | Typing Indicator                          | Online Status                             |
-| :------------------------------------ | :---------------------------------------- | :---------------------------------------- |
-| ![Chat](./public/screenshot-chat.png) | ![Typing](./public/screenshot-typing.png) | ![Online](./public/screenshot-online.png) |
 
 ---
 
@@ -62,15 +56,20 @@ src/
 ├── components/
 │   ├── ChatWindow.tsx
 │   ├── MessageList.tsx
+    ├── MessageItem.tsx
 │   ├── MessageInput.tsx
 │   ├── UsernameInput.tsx
+    ├── OnlineStatus.tsx
 │   └── TypingIndicator.tsx
 │
 ├── firebase/
 │   └── config.ts
 │
 ├── types/
-│   └── chat.ts
+│   └── chat.d.ts
+|
+├── hooks/
+│   └── usePresence.ts
 │
 ├── App.tsx
 └── main.tsx
