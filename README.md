@@ -1,54 +1,104 @@
-# React + TypeScript + Vite
+# 🩶 Pulse — Real-time Chat App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Pulse is a modern real-time chat application built with **React**, **TypeScript**, **Firebase**, and **Framer Motion**. It features online status indicators, typing notifications, smooth UI animations, and a responsive, dark-themed interface styled with **Tailwind CSS**.
 
-Currently, two official plugins are available:
+![Pulse Chat Preview](./public/preview.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- 🚀 Real-time messaging via Firebase Firestore
+- 🎨 Clean, modern UI built with Tailwind CSS
+- 💬 Typing indicators with live updates
+- 🟢 Online status tracking
+- 🌓 Dark mode-friendly design
+- 🎛️ Smooth animations powered by Framer Motion
+- 📱 Fully responsive and mobile-friendly layout
+- 📦 Built with Vite for lightning-fast development
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+---
+
+## 📸 Screenshots
+
+| Chat Window                           | Typing Indicator                          | Online Status                             |
+| :------------------------------------ | :---------------------------------------- | :---------------------------------------- |
+| ![Chat](./public/screenshot-chat.png) | ![Typing](./public/screenshot-typing.png) | ![Online](./public/screenshot-online.png) |
+
+---
+
+## 🔧 Tech Stack
+
+- **React + TypeScript**
+- **Vite**
+- **Tailwind CSS**
+- **Framer Motion**
+- **Firebase Firestore**
+- **React Icons**
+- **Custom Scrollbars**
+- **PWA-ready setup (optional)**
+
+---
+
+## 📦 Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/aashusoni22/Pulse-real-time-chat
+cd Pulse-real-time-chat
+
+# Install dependencies
+npm install
+
+# Run the development server
+npm run dev
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 📝 Project Structure
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
 ```
+src/
+│
+├── components/
+│   ├── ChatWindow.tsx
+│   ├── MessageList.tsx
+│   ├── MessageInput.tsx
+│   ├── UsernameInput.tsx
+│   └── TypingIndicator.tsx
+│
+├── firebase/
+│   └── config.ts
+│
+├── types/
+│   └── chat.ts
+│
+├── App.tsx
+└── main.tsx
+```
+
+## 🌐 Deployment
+
+Easily deploy to Netlify, Vercel, or any static hosting service:
+
+```bash
+npm run build
+```
+
+Then upload the `/dist` folder to your preferred platform.
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+## 💖 Credits
+
+Built with love by Your Name.
+
+## 🚀 Future Improvements
+
+- ✅ Custom emoji picker
+- ✅ Voice notes
+- ✅ Read receipts
+- ✅ Message reactions
+- ✅ User profile pictures
+- ✅ Group chats support
