@@ -84,7 +84,7 @@ This project is licensed under the MIT License.
 
 ## 💖 Credits
 
-Built with love by Your Name.
+Built with love by Aashutosh Soni.
 
 ## 🚀 Future Improvements
 
