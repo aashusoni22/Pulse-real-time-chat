@@ -4,7 +4,7 @@ Pulse is a modern real-time chat application built with **React**, **TypeScript*
 
 ### [✨ Live Demo](https://pulse-chat-ruby.vercel.app/) | [Source Code](https://github.com/aashusoni22/Pulse-real-time-chat)
 
-<img src="https://github.com/user-attachments/assets/789fcf0d-e33c-4f0b-b41c-eb1002bfa487" alt="Mountain landscape with snow-capped peaks at sunset" width="600" />
+<img src="https://github.com/user-attachments/assets/789fcf0d-e33c-4f0b-b41c-eb1002bfa487" alt="Pulse Chat App" width="600" />
 
 ## ✨ Features
 
@@ -26,7 +26,6 @@ Pulse is a modern real-time chat application built with **React**, **TypeScript*
 - **Firebase Firestore**
 - **React Icons**
 - **Custom Scrollbars**
-- **PWA-ready setup (optional)**
 
 ## 📦 Installation
 
@@ -50,10 +49,10 @@ src/
 ├── components/
 │   ├── ChatWindow.tsx
 │   ├── MessageList.tsx
-    ├── MessageItem.tsx
+|   ├── MessageItem.tsx
 │   ├── MessageInput.tsx
 │   ├── UsernameInput.tsx
-    ├── OnlineStatus.tsx
+|   ├── OnlineStatus.tsx
 │   └── TypingIndicator.tsx
 │
 ├── firebase/
